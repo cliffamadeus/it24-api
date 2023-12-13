@@ -50,9 +50,11 @@ fetch('data.json')
       studentSearchBar.addEventListener('input', function() {
         filterStudents(studentSearchBar.value);
       });
-    })
 
     //View Details
+    })
+
+  
     
 .catch(error => {
 console.error('Error fetching data:', error);
