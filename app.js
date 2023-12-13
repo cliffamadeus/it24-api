@@ -53,9 +53,6 @@ fetch('data.json')
 
     //View Details
     })
-
-  
-    
 .catch(error => {
 console.error('Error fetching data:', error);
 });
